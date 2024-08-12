@@ -15,12 +15,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final width = MediaQuery.of(context).size.width;
+    print(width);
     return ScreenUtilInit(
-      designSize: width > 768 ? const Size(1440, 900) : const Size(360, 800),
+      designSize: width > 788 ? const Size(1440, 900) : const Size(360, 800),
       builder: (context, _) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          home: width > 768
+          home: width > 788
               ? const DesktopHomeScreen()
               : const MobileHomeScreen(),
         );

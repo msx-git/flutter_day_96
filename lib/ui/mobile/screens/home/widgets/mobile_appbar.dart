@@ -3,7 +3,8 @@ import 'package:flutter_day_96/utils/constants/extensions.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-import '../../../utils/constants/assets.dart';
+import '../../../../../utils/constants/assets.dart';
+
 
 class MobileAppbar extends StatelessWidget {
   const MobileAppbar({super.key});
